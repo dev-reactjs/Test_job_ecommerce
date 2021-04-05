@@ -1,0 +1,27 @@
+@import 'antd/dist/antd.css';
+
+.productname {
+    color:#21afb8;
+    text-align: center;
+    margin: 0em;
+}
+.cart_btn {
+width:25%;
+border-radius: 20px;
+margin-left: 30px;
+font-size: 20px;
+}
+.card {
+    width:30%;
+    margin:10px;
+    border-radius:15px;
+    border-width: 5px;
+  }
+.description {
+  margin:0 auto;
+  width:90% ;
+}
+.modalCarosul {
+  width:30px;
+  height:200px
+}

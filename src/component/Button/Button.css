@@ -1,0 +1,15 @@
+@import 'antd/dist/antd.css';
+.default_btn {
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100px;
+    background: transparent;
+    border: none
+}
+.yellow_btn {
+    height:30px;
+    width:100%;
+    padding: 0 20px;
+    background-color: yellow;
+    margin:20px 0px
+  }

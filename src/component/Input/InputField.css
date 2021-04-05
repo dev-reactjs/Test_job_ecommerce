@@ -1,0 +1,14 @@
+@import 'antd/dist/antd.css';
+.input {
+    width: 30%;
+}
+.input_Field {
+   
+    height:30px;
+    border-width:1px;
+    border-color: black;
+}
+
+.input_bottom{
+    padding-bottom:15px;
+}
