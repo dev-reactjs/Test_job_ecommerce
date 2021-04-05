@@ -238,10 +238,10 @@ function Product(props) {
     if (event.target.value == "") {
       setData(item4);
     } else {
-      const temp = item4.filter((value) =>
+      const temp = item4&&item4.filter((value) =>
         value.productName
-          .toLowerCase()
-          .includes(event.target.value.toLowerCase())
+          ?.toLowerCase()
+          ?.includes(event.target.value?.toLowerCase())
       );
       setData(temp);
     }

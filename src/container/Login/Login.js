@@ -74,9 +74,11 @@ function Login(props) {
                 "loggedInUser",
                 JSON.stringify(data)
               );
+              console.log("checking -------------------");
               history.push("/Product");
             }
           } else {
+            console.log("wrong -------------------");
             alert('Email or password is not correct')
           }
         });
